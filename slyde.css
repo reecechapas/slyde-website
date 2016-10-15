@@ -1,0 +1,214 @@
+body {
+  background-color: #000;
+  padding: 0;
+  margin: auto;
+}
+
+#main-container {
+  width: 80%;
+  margin: auto;
+}
+
+.navbar {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+nav li:hover {
+  background-color: #C00;
+  margin: 0;
+}
+
+#header-container img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.nextshow {
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  font-family: Copperplate / Copperplate Gothic Light,sans-serif;
+  border: #fff 2px solid;
+  margin-top: 10px;
+}
+
+@media (max-width: 800px) {
+  .nextshow {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .nextshow {
+    font-size: 10px;
+    padding: 10px;
+  }
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  color: #fff;
+  text-align: justify;
+  font-family: Copperplate / Copperplate Gothic Light,sans-serif;
+  font-size: 15px;
+  padding: 10px;
+}
+
+@media (max-width: 800px) {
+  .banner {
+    font-size: 10px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .banner {
+    font-size: 8px;
+    padding: 10px;
+  }
+}
+
+.meettheband-heading {
+  color: #fff;
+  text-align: center;
+  font-family: Copperplate / Copperplate Gothic Light,sans-serif;
+}
+
+#meettheband {
+  padding: 10px;
+  background-color: #000;
+}
+
+.nobby img {
+  border: #C00 2px solid;
+  border-radius: 15%;
+}
+
+.dave img {
+  border: silver 2px solid;
+  border-radius: 15%;
+}
+
+.jammy img {
+  border: #009BA2 2px solid;
+  border-radius: 15%;
+}
+
+.dozy img {
+  border: #ff0 2px solid;
+  border-radius: 15%;
+}
+
+#bandmemberinfo-container {
+  width: 100% background-color: #fff;
+  height: auto;
+  margin-top: 15px;
+  border: 1px red solid;
+}
+
+.bandmemberinfo-img {
+  display: inline-block;
+  width: 34%;
+}
+
+.bandmemberinfo-text {
+  color: #fff;
+  width: 65%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.photo-heading {
+  color: #3232FF;
+  text-align: center;
+  font-family: Copperplate / Copperplate Gothic Light,sans-serif;
+}
+
+.gallery {
+
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+
+.video-heading {
+  color: #EFC243;
+  text-align: center;
+  font-family: Copperplate / Copperplate Gothic Light,sans-serif;
+}
+
+.video-cell {
+  position: relative;
+}
+
+.video-cell img {
+  width: 100%;
+  border: 4px solid black;
+  border-radius: 20px;
+}
+
+.video-cell video {
+  position: absolute;
+  top: 5%;
+  bottom: 0%;
+  left: 22%;
+  right: 0%;
+  background-color: #000;
+  border: 1px solid black;
+  margin: auto;
+  max-width: 100%;
+}
+
+.getintouch-heading {
+  color: #fff;
+  text-align: center;
+  font-family: Copperplate / Copperplate Gothic Light,sans-serif;
+}
+
+#getintouch {
+  background: url("img/SILVER.png");
+  border: 2px #000 dashed;
+  height: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.form {
+  color: #fff;
+  height: auto;
+}
+
+span img {
+  margin: 5px;
+}
+
+.contact {
+  border-right: 2px #000 dashed;
+  font-size: 17px;
+  margin: 10px;
+}
+
+footer {
+  border-top: 1px solid #fff;
+  margin-top: 50px;
+  background-color: #000;
+  color: #eee;
+  font-size: 11px;
+  padding: 20px;
+}
+
+.footer-heading {
+  text-decoration: underline;
+}
+
+ul.unstyled {
+  list-style: none;
+  padding: 0;
+
+}
