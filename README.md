@@ -1,2 +1,2 @@
-# slyde
-### By Reece Chapman
+#### SLYDE
+## By Reece Chapman
