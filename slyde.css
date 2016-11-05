@@ -58,10 +58,6 @@ nav li:hover {
   }
 }
 
-.meettheband-heading {
-  margin: auto;
-}
-
 #meettheband {
   padding: 10px;
   background-color: #000;
@@ -114,6 +110,7 @@ nav li:hover {
 .photo-heading {
   margin: auto;
   width: 100%;
+  padding-top: 30px;
 }
 
 .gallery {
@@ -128,11 +125,6 @@ figcaption {
   padding: 10px;
   text-align: justify-all;
   font-family: Arial;
-}
-
-.video-heading {
-  margin: auto;
-  width: 100%;
 }
 
 .video-cell {
@@ -157,9 +149,15 @@ figcaption {
   max-width: 100%;
 }
 
-.getintouch-heading {
-  margin: auto;
+.heading {
   width: 100%;
+  padding-top: 30px;
+
+}
+
+.heading img {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #getintouch {
