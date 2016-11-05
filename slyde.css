@@ -14,6 +14,13 @@ body {
   display: flex;
   justify-content: center;
   height: auto;
+  font-family: Gill Sans, Verdana;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  }
 }
 
 nav li:hover {
@@ -24,30 +31,6 @@ nav li:hover {
 #header-container img {
   width: 100%;
   height: auto;
-  margin-bottom: 10px;
-}
-
-.nextshow {
-  text-align: center;
-  color: #fff;
-  font-size: 15px;
-  font-family: Tahoma, Geneva, sans-serif;
-  border: #fff 2px solid;
-  margin-top: 10px;
-}
-
-@media (max-width: 800px) {
-  .nextshow {
-    font-size: 15px;
-    padding: 10px;
-  }
-}
-
-@media (max-width: 500px) {
-  .nextshow {
-    font-size: 10px;
-    padding: 10px;
-  }
 }
 
 .banner {
@@ -55,14 +38,15 @@ nav li:hover {
   height: auto;
   color: #fff;
   text-align: justify;
-  font-family: Tahoma, Geneva, sans-serif;
-  font-size: 15px;
-  padding: 10px;
-}
+  font-family: Arial;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  }
 
 @media (max-width: 800px) {
   .banner {
-    font-size: 10px;
+    font-size: 12px;
     padding: 10px;
   }
 }
@@ -75,9 +59,7 @@ nav li:hover {
 }
 
 .meettheband-heading {
-  color: #fff;
-  text-align: center;
-  font-family: Copperplate / Copperplate Gothic Light,sans-serif;
+  margin: auto;
 }
 
 #meettheband {
@@ -114,6 +96,7 @@ nav li:hover {
 
 .bandmemberinfo-img {
   display: inline-block;
+  height: 100%;
   width: 34%;
 }
 
@@ -122,13 +105,15 @@ nav li:hover {
   width: 65%;
   display: inline-block;
   vertical-align: top;
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: Arial;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .photo-heading {
-  color: #3232FF;
-  text-align: center;
-  font-family: Copperplate / Copperplate Gothic Light,sans-serif;
+  margin: auto;
+  width: 100%;
 }
 
 .gallery {
@@ -142,13 +127,12 @@ figcaption {
   font-size: 12px;
   padding: 10px;
   text-align: justify-all;
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: Arial;
 }
 
 .video-heading {
-  color: #EFC243;
-  text-align: center;
-  font-family: Copperplate / Copperplate Gothic Light,sans-serif;
+  margin: auto;
+  width: 100%;
 }
 
 .video-cell {
@@ -174,17 +158,39 @@ figcaption {
 }
 
 .getintouch-heading {
-  color: #e6e6e6;
-  text-align: center;
-  font-family: Copperplate / Copperplate Gothic Light,sans-serif;
+  margin: auto;
+  width: 100%;
 }
 
 #getintouch {
-  background: url("img/GETINTOUCH.jpg");
+  background: url("img/GETINTOUCH-SILVER.jpg");
   height: auto;
   width: 100%;
   padding: 10px;
-  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.phone {
+  border: black 1px solid;
+  margin: 5px;
+  padding: 5px;
+}
+
+.email {
+  border: black 1px solid;
+  margin: 5px;
+  padding: 1px;
+}
+
+.socialmedia {
+  border: black 1px solid;
+  margin: 5px;
+  padding: 5px;
+}
+
+.forminfo {
+  border: black 1px solid;
+  margin: 5px;
+  padding: 1px;
 }
 
 .form {
@@ -207,8 +213,11 @@ footer {
   margin-top: 50px;
   background-color: #000;
   color: #eee;
-  font-size: 11px;
   padding: 20px;
+  font-family: Arial;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .footer-heading {
