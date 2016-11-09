@@ -19,10 +19,11 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: bold;
+  display: flex;
 }
 
 nav li:hover {
-  background-color: #C00;
+  background-color: #0000B2;
   margin: 0;
 }
 
@@ -57,12 +58,11 @@ nav li:hover {
   }
 
   .navbar-header {
-    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 #meettheband {
-  padding: 10px;
   background-color: #000;
 }
 
@@ -94,21 +94,17 @@ nav li:hover {
   border: 1px red solid;
   color: #fff;
   font-family: Arial;
-  font-size: 10px;
+  font-size: 12px;
   text-transform: uppercase;
+  overflow: hidden;
+  padding: 5px;
 }
 
-.bandmemberinfo-container img {
-  height: 100%;
+#bandmemberinfo-container img {
   max-width: 350px;
   float: left;
+  margin: 5px;
 
-}
-
-.photo-heading {
-  margin: auto;
-  width: 100%;
-  padding-top: 30px;
 }
 
 .gallery {
@@ -150,48 +146,13 @@ figcaption {
 .heading {
   width: 100%;
   padding-top: 30px;
+  text-align: center;
 
 }
 
 .heading img {
   margin-left: auto;
   margin-right: auto;
-}
-
-#getintouch {
-  background: url("img/GETINTOUCH-SILVER.jpg");
-  height: auto;
-  width: 100%;
-  padding: 10px;
-}
-
-.phone {
-  border: black 1px solid;
-  margin: 5px;
-  padding: 5px;
-}
-
-.email {
-  border: black 1px solid;
-  margin: 5px;
-  padding: 1px;
-}
-
-.socialmedia {
-  border: black 1px solid;
-  margin: 5px;
-  padding: 5px;
-}
-
-.forminfo {
-  border: black 1px solid;
-  margin: 5px;
-  padding: 1px;
-}
-
-.form {
-  color: #fff;
-  height: auto;
 }
 
 span img {
@@ -211,9 +172,13 @@ footer {
   color: #eee;
   padding: 20px;
   font-family: Arial;
-  font-size: 9px;
+  font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+.copyright {
+  font-size: 12px;
 }
 
 .footer-heading {
