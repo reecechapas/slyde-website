@@ -41,6 +41,7 @@ nav li:hover {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  margin-top: 20px;
   }
 
 @media (max-width: 992px) {
