@@ -66,22 +66,22 @@ nav li:hover {
   background-color: #000;
 }
 
-.nobby img {
+#nobby img {
   border: #C00 2px solid;
   border-radius: 15%;
 }
 
-.dave img {
+#dave img {
   border: silver 2px solid;
   border-radius: 15%;
 }
 
-.jammy img {
+#jammy img {
   border: #009BA2 2px solid;
   border-radius: 15%;
 }
 
-.dozy img {
+#dozy img {
   border: #ff0 2px solid;
   border-radius: 15%;
 }
