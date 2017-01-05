@@ -87,11 +87,22 @@ nav li:hover {
 }
 
 #bandmemberinfo-container {
+
+}
+
+#bandmemberinfo-container img {
+  max-width: 350px;
+  float: left;
+  margin: 5px;
+
+}
+
+#nobby-info {
+  border: red 2px solid;
   width: 100%;
   background-color: black;
   height: auto;
   margin-top: 10px;
-  border: 1px red solid;
   color: #fff;
   font-family: Arial;
   font-size: 12px;
@@ -100,11 +111,46 @@ nav li:hover {
   padding: 5px;
 }
 
-#bandmemberinfo-container img {
-  max-width: 350px;
-  float: left;
-  margin: 5px;
+#dave-info {
+  border: silver 2px solid;
+  width: 100%;
+  background-color: black;
+  height: auto;
+  margin-top: 10px;
+  color: #fff;
+  font-family: Arial;
+  font-size: 12px;
+  text-transform: uppercase;
+  overflow: hidden;
+  padding: 5px;
+}
 
+#jammy-info {
+  border: #3A757C 2px solid;
+  width: 100%;
+  background-color: black;
+  height: auto;
+  margin-top: 10px;
+  color: #fff;
+  font-family: Arial;
+  font-size: 12px;
+  text-transform: uppercase;
+  overflow: hidden;
+  padding: 5px;
+}
+
+#dozy-info {
+  border: yellow 2px solid;
+  width: 100%;
+  background-color: black;
+  height: auto;
+  margin-top: 10px;
+  color: #fff;
+  font-family: Arial;
+  font-size: 12px;
+  text-transform: uppercase;
+  overflow: hidden;
+  padding: 5px;
 }
 
 .gallery {
