@@ -41,20 +41,19 @@ nav li:hover {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-top: 20px;
+  
   }
 
 @media (max-width: 992px) {
   .banner {
     font-size: 12px;
-
   }
 }
 
 @media (max-width: 768px) {
   .banner {
     font-size: 8px;
-    padding: 10px;
+ 
   }
 
   .navbar-header {
@@ -62,8 +61,12 @@ nav li:hover {
   }
 }
 
-#meettheband {
-  background-color: #000;
+.col-xs-3:hover {
+    position:relative;
+    width:250px;
+    height:auto;
+    display:block;
+    z-index:999;
 }
 
 #nobby img {
@@ -84,10 +87,6 @@ nav li:hover {
 #dozy img {
   border: #ff0 2px solid;
   border-radius: 15%;
-}
-
-#bandmemberinfo-container {
-
 }
 
 #bandmemberinfo-container img {
@@ -218,7 +217,7 @@ footer {
   color: #eee;
   padding: 20px;
   font-family: Arial;
-  font-size: 10px;
+  font-size: 8px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
